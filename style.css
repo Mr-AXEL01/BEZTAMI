@@ -24,6 +24,7 @@ header a {
     font-size: 34px; 
     display: flex;
     align-items: center;
+    padding: 20px 0;
 }
 header img {
     max-width: 80px;
@@ -49,6 +50,7 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 80%;
+    padding: 0 10px;
     margin: 0 10%;
 }
 .container{
@@ -60,9 +62,11 @@ nav a {
     line-height: 50px;
 }
 .container img{
+    position: relative;
     bottom: 50px;
     width: 30em;
     height: auto;
+    bottom: 70px;
 }
 .container_text{
     width: 50%;
