@@ -17,35 +17,90 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
     margin: 0 10% ;
 }
-
-
 header a {
     color: #000000;
-    font-size: 24px; 
+    font-size: 34px; 
     display: flex;
     align-items: center;
 }
 header img {
-    max-width: 60px;
-    margin-right: 10px;
-    padding-bottom: 5px;
+    max-width: 80px;
+    padding-bottom: 15px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
 }
-
-nav li {
-    margin-right: 20px;
-    text-decoration: none;
+ul li{
+    width: 9rem;
+    display: flex;
+    justify-content:space-evenly ;
 }
 
 nav a {
     color: #000;
     font-weight: bold;
     font-size: 18px;
+}
+.welcome_hero{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+}
+.container img{
+    bottom: 50px;
+    width: 30em;
+    height: auto;
+}
+.container_text{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+/* .conatainer_text h1{
+    font-weight: 900;
+    width: 100%;
+} */
+.container_text h1 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.container_text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.container_text button {
+    background-color: #0078d4;
+    color: #fff;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container_text button:hover {
+    background-color: #0c80e6;
+    color: #000;
 }
