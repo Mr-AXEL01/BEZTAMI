@@ -51,7 +51,7 @@ nav a {
     flex-direction: column;
     width: 80%;
     padding: 0 10px;
-    margin: 0 10%;
+    margin: 2% 10%;
 }
 .container{
     width: 100%;
@@ -64,7 +64,7 @@ nav a {
 .container img{
     position: relative;
     bottom: 50px;
-    width: 30em;
+    width: 25em;
     height: auto;
     bottom: 70px;
 }
@@ -73,12 +73,7 @@ nav a {
     height: 50vh;
     display: flex;
     flex-direction: column;
-    padding: 20px;
 }
-/* .conatainer_text h1{
-    font-weight: 900;
-    width: 100%;
-} */
 .container_text h1 {
     font-size: 40px;
     font-weight: 900;
@@ -98,7 +93,6 @@ nav a {
     border-radius: 20px;
     padding: 10px 20px;
     font-size: 18px;
-    /* font-weight: bold; */
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -113,7 +107,53 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .learn_more img{
     width: 20px;
+}
+.more{
+    width: 80%;
+    margin: 0 10%
+}
+.container_more{
+    display: flex;
+    flex-direction: column;
+}
+.container_more_1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.container_more_1_text{
+    width: 40%;
+    line-height: 30px;
+}
+.container_more_1_text h2{
+    margin-bottom: 20px;
+}
+.container_more_1 img{
+    position: relative;
+    align-items: center;
+    padding: 40px;
+}
+.container_more_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.container_more_2_text{
+    width: 40%;
+    line-height: 30px;
+}
+.container_more_2_text h2{
+    margin-bottom: 20px;
+
+}
+.container_more_2 img{
+    position: relative;
+    padding: 40px;
 }
