@@ -234,14 +234,18 @@ footer .heading_footer{
 .footer_content{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* align-items: center; */
 }
 .footer_content h4{
     color: #004AAD;
+    margin-bottom: 20px;
+}
+.content_informaations hr {
+    color: #000000;
 }
 .content_learn_more{
-    width: 20%;
+    /* width: 20%; */
 }
 .content_learn_more a{
     color: #000;
@@ -249,7 +253,30 @@ footer .heading_footer{
 .content_learn_more_list ul{
     display: flex;
 }
-.content_contact_us{
+.content_informations{
     display: flex;
-    width: 70%;
+    flex-direction: column;
+    width: 20%;
+}
+.content_informations .link{
+    display: flex;
+    gap: 1em;
+}
+.content_informations_links img{
+    width: 1rem;
+}
+.sociale{
+    display: flex;
+}
+.sociale img{
+    width: 3em;
+    padding: 0.3rem 0.5rem;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_form img{
+    width: 2rem;
 }
