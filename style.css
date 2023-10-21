@@ -305,7 +305,11 @@ footer .heading_footer{
 .contact_form .message{
     height: 5rem;
 }
-
+.contact_form button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 .contact_form img{
     width: 2rem;
 }
