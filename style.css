@@ -285,7 +285,7 @@ footer .heading_footer{
     width: 3em;
     padding: 0.3rem 0.5rem;
 }
-.contact_form{
+.contact_form form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,6 +313,186 @@ footer .heading_footer{
 .contact_form img{
     width: 2rem;
 }
-/* -------------------------------------------------
 
+/* -------------------------------------------------
+                         Dashboord
 ----------------------------------------------------*/
+
+.card_Beztami {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 25rem;
+    height: 15rem;
+    background: url(assest/images/hands-digital-universe-background_53876-97068.jpg);
+    background-size: cover;
+    color: #ffffffde;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(190, 12, 131);
+    text-align: center;
+}
+
+.card-front {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-company {
+    display: flex;
+    justify-content: end;
+    font-size: 18px;
+}
+.card-company img{
+    position: relative;
+    width: 2em;
+    bottom: 1em;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.balance p{
+    display: flex;
+}
+
+.balance img{
+    position: relative;
+    top: 1em;
+    width: 3em;
+    border-radius: 20px;
+}
+.sim{
+    display: flex;
+    justify-content: flex-end;
+}
+.card-number {
+    font-size: 14px;
+    margin-top: 2em;
+}
+.deposit{
+    display: flex;
+    align-items: center;
+    margin: 4em;
+}
+.deposit button{
+    background-color: yellow;
+    width: 5em;
+    height: 3em;
+    /* border:; */
+    border-radius: 20px;
+}
+
+.swaps-container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.swaps-container {
+    margin-top: 20px;
+}
+
+.currency-list ul {
+    list-style: none;
+}
+
+.currency-list li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #daa294a9;
+    border-radius: 20px;
+}
+
+.currency-list img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.currency-list span {
+    font-size: 16px;
+}
+
+
+
+/* -------------------------------------------------
+                         swaps
+----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* label {
+    display: block;
+    margin: 10px 0;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+
+
+#confirm-swap {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.transaction-history {
+    margin-top: 20px;
+}
+
+.transaction-history ul {
+    list-style: none;
+}
+
+.transaction-history li {
+    margin: 5px 0;
+}
+
+
+
+/* Add these styles to your existing CSS file */
+
+
+
+
+
+
+
+
+/* Add additional styling as needed */
+
+
+
+
