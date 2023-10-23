@@ -11,86 +11,118 @@
         <a href="#"><img src="assest/logos/logo-wallet.png" alt=""> Beztami</a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Dashboord</a></li>
-                <li><a href="#">swaps</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Dashboord.html">Dashboord</a></li>
+                <li><a href="swaps.html">swaps</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- <section class="card_Beztami">
-            <div class="card">
-                <div class="smart-chip"></div>
-                <div class="card-front">
-                    <div class="card-company">Beztami</div>
-                    <div class="card-number">1234 5678 9012 3456</div>
-                    <div class="card-valid">Valid Thru 12/25</div>
-                </div>
-                <div class="card-back">
-                    <div class="card-cvv">CVV: 123</div>
-                </div>
-            </div>
-        </section> -->
-
         <section class="card_Beztami">
             <div class="card">
                 <div class="card-front">
-                    <div class="card-company">Beztami</div>
-                    <div class="card-number">1234 5678 9012 3456</div>
-                    <div class="card-valid">Valid Thru 12/25</div>
-                </div>
-                <div class="card-back">
-                    <div class="card-cvv">CVV: 123</div>
+                    <div class="card-company">
+                        <img src="assest/logos/logo-wallet.png" alt="Beztami_wallet">
+                        <p>Beztami</p>
+                    </div>
+                    <div class="balance">
+                        <p>= $1,000,000</p>
+                        <div class="sim">
+                            <img src="assest/icons/plastic-card-chip.jpg" alt="smart_chip">
+                        </div>
+                    </div>
+                    <div class="card-number">0x2B5AD5c4795c026514f8317c7a215E218DcCD6cF</div>
                 </div>
             </div>
         </section>
 
-
-        <section class="swaps-container">
-            <h1>Crypto Swaps</h1>
-            <div class="pair-selection">
-                <label for="source-crypto">Source Crypto:</label>
-                <select id="source-crypto">
-                    <option value="bitcoin">Bitcoin</option>
-                    <option value="ethereum">Ethereum</option>
-                    
-                </select>
-    
-                <label for="target-crypto">Target Crypto:</label>
-                <select id="target-crypto">
-                    <option value="ethereum">Ethereum</option>
-                    <option value="ripple">Ripple</option>
-                    
-                </select>
-            </div>
-    
-            <div class="exchange-interface">
-                <label for="swap-amount">Amount to Swap:</label>
-                <input type="text" id="swap-amount" placeholder="Enter amount">
-                <p>Exchange Rate: 1 Bitcoin = 10 Ethereum</p>
-                <p>Estimated Fee: 0.005 Bitcoin</p>
-            </div>
-    
-            <div class="transaction-summary">
-                <h2>Transaction Summary</h2>
-                <p>Swap 0.5 Bitcoin for 5 Ethereum</p>
-                <p>Estimated Fee: 0.005 Bitcoin</p>
-            </div>
-    
-            <div class="confirmation">
-                <button id="confirm-swap">Confirm Swap</button>
-            </div>
-    
-            <div class="transaction-history">
-                <h2>Transaction History</h2>
-                <ul>
-                    <li>Swap completed: 0.2 Bitcoin for 2 Ethereum</li>
-                    <li>Swap pending: 0.3 Bitcoin for 3 Ethereum</li>
-                    
-                </ul>
-            </div>
-        </section>
+        <div class="comntainer_finnal">
+            <div class="background_container"><img
+                    src="assest/images/ai-generated-3d-rendering-golden-bitcoin-coin-covered-with-ice-snow-against-bright-purple-background_501669-25443.avif"
+                    alt=""></div>
+            <section class="swaps_container">
+                <h2>Crypto Swaps</h2>
+                <div class="pair_selection">
+                    <label for="source_crypto">Source Crypto :</label>
+                    <select id="source_crypto">
+        
+                        <option value="bitcoin">Bitcoin (BTC)</option>
+                        <option value="ethereum">Ethereum (ETH)</option>
+                        <option value="ripple">Ripple (XRP)</option>
+                        <option value="cardano">Cardano (ADA)</option>
+                        <option value="polkadot">Polkadot (DOT)</option>
+                        <option value="chainlink">Chainlink (LINK)</option>
+                        <option value="litecoin">Litecoin (LTC)</option>
+                        <option value="stellar">Stellar (XLM)</option>
+                        <option value="bitcoin-cash">Bitcoin Cash (BCH)</option>
+                        <option value="dogecoin">Dogecoin (DOGE)</option>
+                        <option value="solana">Solana (SOL)</option>
+                        <option value="binance-coin">Binance Coin (BNB)</option>
+                        <option value="tezos">Tezos (XTZ)</option>
+                        <option value="eos">EOS (EOS)</option>
+                        <option value="cosmos">Cosmos (ATOM)</option>
+                        <option value="tron">Tron (TRX)</option>
+                        <option value="iota">IOTA (MIOTA)</option>
+                        <option value="avalanche">Avalanche (AVAX)</option>
+                        <option value="neo">NEO (NEO)</option>
+                        <option value="vechain">VeChain (VET)</option>
+                    </select>
+                    <div class="space"></div>
+        
+                    <label for="target_crypto">Target Crypto :</label>
+                    <select id="target_crypto">
+        
+                        <option value="ethereum">Ethereum (ETH)</option>
+                        <option value="ripple">Ripple (XRP)</option>
+                        <option value="cardano">Cardano (ADA)</option>
+                        <option value="polkadot">Polkadot (DOT)</option>
+                        <option value="chainlink">Chainlink (LINK)</option>
+                        <option value="litecoin">Litecoin (LTC)</option>
+                        <option value="stellar">Stellar (XLM)</option>
+                        <option value="bitcoin-cash">Bitcoin Cash (BCH)</option>
+                        <option value="dogecoin">Dogecoin (DOGE)</option>
+                        <option value="solana">Solana (SOL)</option>
+                        <option value="binance-coin">Binance Coin (BNB)</option>
+                        <option value="tezos">Tezos (XTZ)</option>
+                        <option value="eos">EOS (EOS)</option>
+                        <option value="cosmos">Cosmos (ATOM)</option>
+                        <option value="tron">Tron (TRX)</option>
+                        <option value="iota">IOTA (MIOTA)</option>
+                        <option value="avalanche">Avalanche (AVAX)</option>
+                        <option value="neo">NEO (NEO)</option>
+                        <option value="vechain">VeChain (VET)</option>
+                    </select>
+                </div>
+        
+                <div class="exchange_interface">
+                    <div class="swap_amount_choose">
+                        <label for="swap_amount">Amount to Swap ($):</label>
+                        <input type="text" id="swap_amount" placeholder="Enter amount">
+                    </div>
+                    <p>Estimated Fee: 0.005 Bitcoin</p>
+                </div>
+        
+                <div class="transaction_summary">
+                    <h2>Transaction Summary</h2>
+                    <p>Swap 0.5 Bitcoin for 5 Ethereum</p>
+                    <p>Estimated Fee: 0.005 Bitcoin</p>
+                </div>
+        
+                <div class="confirmation">
+                    <button id="confirm_swap">Confirm Swap</button>
+                </div>
+        
+                <div class="transaction_history">
+                    <h2>Transaction History</h2>
+                    <ul>
+                        <li>Swap completed : <br> 0.2 Bitcoin for 2 Ethereum</li>
+                        <li>Swap pending : <br> 0.3 Bitcoin for 3 Ethereum</li>
+        
+                    </ul>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>

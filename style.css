@@ -399,14 +399,14 @@ footer .heading_footer{
     transition: 0.3s;
 }
 
-.swaps-container {
+.currency-container {
     max-width: 80%;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
 }
 
-.swaps-container {
+.currency-container {
     margin-top: 20px;
 }
 
@@ -441,66 +441,122 @@ footer .heading_footer{
                          swaps
 ----------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-/* label {
-    display: block;
-    margin: 10px 0;
+.background_container{
+    position: absolute;
+    width: 80%;
+    height: 95.5vh;
+    margin: 0 12%;
+    z-index: -1;
+}
+.background_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    size: cover;
+}
+.swaps_container{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.482);
+    background-color: rgba(255, 255, 255, 0.575);
+    box-shadow: 0 0 20px rgb(91, 0, 95);
+    padding: 20px 5em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 10px;
+    margin: 5em 12%;
 }
 
-select, input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-} */
-
-
-
-#confirm-swap {
-    background-color: #0078d4;
-    color: #fff;
-    padding: 10px 20px;
+.pair_selection{
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pair_selection select{
     border: none;
+    background-color: #e3afd69c;
+    border-radius: 10px;
+    box-shadow:0 0 5px rgb(0, 153, 248);
+}
+.pair_selection select:hover{
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 0 10px rgb(190, 12, 131);
+    transition: 0.4s;
+}
+
+.exchange_interface{
+    display: flex;
+    flex-direction: column;
+    margin:0 .5em;
+    padding: 1em 0;
+}
+.swap_amount_choose{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+.swap_amount_choose input{
+    border: none;
+    background-color: #e3afd69c;
+    border-radius: 10px;
+    box-shadow:0 0 5px rgb(0, 153, 248);
+    text-align: center;
+}
+.swap_amount_choose input:hover{
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 0 10px rgb(190, 12, 131);
+    transition: 0.4s;
+}
+.swap_amount_choose input:focus{
+    outline: none !important;
+}
+.swap_amount_choose input::placeholder{
+    color: #000;
+}
+.swap_amount_choose input::placeholder:hover{
+    color: #fff;
+}
+
+.transaction_summary{
+    line-height: 2.4em;
+}
+
+.confirmation button{
+    font-weight: 600;
+    font-family:'roboto',sans-serif;
+    color: #052d47;
+    border: none;
+    background-color: #e3afd69c;
+    box-shadow: 0 0 10px rgb(0, 153, 248);
+    width: 8em;
+    height: 3em;
+    border-radius: 15px;
     cursor: pointer;
 }
-
-
-
-.transaction-history {
-    margin-top: 20px;
+.confirmation button:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(255, 0, 238, 0.877);
+    transition: 0.3s;
 }
 
-.transaction-history ul {
-    list-style: none;
+.transaction_history{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.4em;
+}
+.transaction_history ul {
+    display: flex;
+    flex-direction: column;
 }
 
-.transaction-history li {
-    margin: 5px 0;
+.transaction_history ul li{
+    padding: 1em ;
+    width: 12rem;
 }
-
-
-
-/* Add these styles to your existing CSS file */
-
-
-
-
-
-
-
-
-/* Add additional styling as needed */
-
-
-
-
