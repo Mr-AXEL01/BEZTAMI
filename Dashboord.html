@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboord</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -176,15 +178,17 @@
 
 
             <div class="contact_form">
-                <form>
-                    <input type="text" placeholder="NAME">
-                    <input type="email" placeholder="EMAIL">
+                <form id="form">
+                    <input id="name" type="text" placeholder="NAME">
+                    <input id="email" type="email" placeholder="EMAIL">
                     <input class="message" type="text" placeholder="MESSAGE">
-                    <button type="submit"><img src="assest/icons/paper-plane-solid.svg" alt="send_icon"></button>
+                    <button type="button" onclick="onSubmit()"><img src="assest/icons/paper-plane-solid.svg"
+                            alt="send_icon"></button>
                 </form>
             </div>
         </div>
     </footer>
     <script src="./script.js"></script>
 </body>
+
 </html>

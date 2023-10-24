@@ -13,7 +13,7 @@ const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 
 
-form.addEventListener('submit', function (e) {
+ function onSubmit() {
   let isValid = true;
   const nameRegex = /^[A-Za-z ]+$/;
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -21,7 +21,7 @@ form.addEventListener('submit', function (e) {
   if (!nameRegex.test(nameInput.value)) {
     isValid = false;
     alert('Please enter a valid name.');
-    e.preventDefault();
+ 
   }
 
  
@@ -34,4 +34,4 @@ form.addEventListener('submit', function (e) {
   if (!isValid) {
     e.preventDefault();
   }
-});
+}
