@@ -11,6 +11,7 @@ faqs.forEach(faqItem => {
 const form = document.getElementById('form');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
+const msgInput = document.getElementById('message');
 
 
 function onSubmit() {
@@ -25,13 +26,21 @@ function onSubmit() {
   }
 
 
-  if (!emailRegex.test(emailInput.value)) {
+  else if (!emailRegex.test(emailInput.value)) {
     isValid = false;
     alert('Please enter a valid email address.');
     e.preventDefault();
   }
 
-  if (!isValid) {
+  else if (!isValid) {
     e.preventDefault();
   }
+
+ else{
+    alert("sent successfully")
+    nameInput.value = ""
+    emailInput.value = ""
+    msgInput.value = ""
+
+ }
 }
