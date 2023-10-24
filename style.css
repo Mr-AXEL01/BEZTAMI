@@ -36,6 +36,9 @@ nav ul {
     list-style: none;
     display: flex;
 }
+.burger_menu{
+    display: block;
+}
 ul li{
     width: 9rem;
     display: flex;
@@ -616,4 +619,20 @@ footer .heading_footer{
 }
 .faq-item img{
     transition: transform .4s ease-in
+}
+
+@media (max-width: 768px){
+    .container_text h1 {
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 50px;
+    }
 }

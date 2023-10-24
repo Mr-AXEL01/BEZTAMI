@@ -1,3 +1,6 @@
+// ---------- FAQ ----------------
+
+
 const faqs = document.querySelectorAll(".faq-item");
 
 faqs.forEach(faqItem => {
@@ -7,7 +10,7 @@ faqs.forEach(faqItem => {
 });
 
 
-
+// ------------- validation contact form ----------------
 const form = document.getElementById('form');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
@@ -37,10 +40,22 @@ function onSubmit() {
   }
 
  else{
-    alert("sent successfully")
+    
     nameInput.value = ""
     emailInput.value = ""
     msgInput.value = ""
 
  }
 }
+
+
+
+function toggleNav() {
+  var nav = document.querySelector('nav');
+  if (nav.style.display === 'block' || nav.style.display === '') {
+      nav.style.display = 'none';
+  } else {
+      nav.style.display = 'block';
+  }
+}
+
