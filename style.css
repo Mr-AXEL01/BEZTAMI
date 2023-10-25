@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 body{
     font-family:"poppins", sans-serif;
@@ -547,7 +548,23 @@ footer .heading_footer{
     font-size: 16px;
 }
 
-
+@media screen and (max-width: 768px){
+    .card_Beztami{
+        margin-top: 8rem;
+        align-items: center;
+        flex-direction: column;
+        height: 40vh;
+    }
+    .deposit{
+        position: absolute;
+        left: 0;
+        top: 22rem;
+        padding: 1rem 0;
+    }
+    .currency-container {
+        margin-top: 3rem;
+    }
+}
 
 /* -------------------------------------------------
                          swaps
@@ -672,6 +689,54 @@ footer .heading_footer{
     padding: 1em ;
     width: 12rem;
 }
+
+@media screen and (max-width: 768px){
+    .swaps_container{
+        width: 90vw;
+        margin: 5em 1rem;
+        padding: 10px 5px;
+    }
+    .background_container{
+        margin: 0 1rem;
+    }
+    .background_container img{
+        height: 92.4vh;
+        width:28.15rem;
+    }
+    .pair_selection{
+        flex-direction: column;
+    }
+    .pair_selection{
+        padding: 1rem 2rem;
+    }
+    .pair_selection select{
+        width: 8rem;
+        height: 2rem;
+    }
+    .space{
+        height: 1rem;
+    }
+
+    .exchange_interface{
+        width: 40rem;
+        margin:0 1rem;
+        padding: 1rem;
+    }
+    .swap_amount_choose input{
+        height: 2rem;
+    }
+    .transaction_summary p{
+        padding: 0 2rem;
+    }
+    .confirmation{
+        padding: .5rem 2rem;
+    }
+    .transaction_history ul li{
+        width: 40rem;
+        padding: 0 2rem;
+    }
+}
+
 
 /* -------------------------------------------------
                          FAQ
