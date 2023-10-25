@@ -48,14 +48,13 @@ function onSubmit() {
  }
 }
 
+// ---------- berger_menu----------------
 
+const burgerMenu = document.querySelector(".burger_menu")
+const navLinks = document.querySelector(".nav_links")
 
-function toggleNav() {
-  var nav = document.querySelector('nav');
-  if (nav.style.display === 'block' || nav.style.display === '') {
-      nav.style.display = 'none';
-  } else {
-      nav.style.display = 'block';
-  }
-}
+burgerMenu.addEventListener("click", () => {
+  navLinks.classList.toggle("mobile_menu")
+})
+
 
